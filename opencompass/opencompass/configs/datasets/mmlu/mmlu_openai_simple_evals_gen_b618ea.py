@@ -13,7 +13,7 @@ with read_base():
 # Please download the dataset from https://people.eecs.berkeley.edu/~hendrycks/data.tar
 
 QUERY_TEMPLATE = """
-Answer the following multiple choice question. The last line of your response should be of the following format: 'ANSWER: $LETTER' (without quotes) where LETTER is one of ABCD. Think step by step before answering.
+Answer the following multiple choice question. The last line of your response must be of the following format: 'ANSWER: LETTER' (without quotes) where LETTER is one of ABCD. Think step by step before answering.
 
 {input}
 
