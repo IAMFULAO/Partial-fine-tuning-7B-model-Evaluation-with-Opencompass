@@ -19,9 +19,13 @@ With the help of opencompass: <https://github.com/open-compass/opencompass> and 
 ## Abstract
 
 Comparison models' performance on MMLU (Massive Multitask Language Understanding) & CMMLU (Chinese Massive Multi-Level Language Understanding) two datasets all 124 different fields of data test.
-Models include
+
+Models include:
+
 Llama-2-7b-chat-hf: <https://modelscope.cn/models/shakechen/Llama-2-7b-chat-hf>
+
 Chinese-Alpaca-2-7B: <https://github.com/ymcui/Chinese-LLaMA-Alpaca-2>
+
 Local partial-fine-tuning models
 
 ***
@@ -64,7 +68,7 @@ pip install -e ".[torch,metrics]" --no-build-isolation
 
 <p align="center"><b><font face="宋体" size=3>Llama-2-7B-chat VS LoRA-fine-tuning-model</font></b></p>
 
-<div class="center "><font face="宋体" size=2>
+<p align="center"><font face="宋体" size=2>
 
 | 参数 | 幅度|
 | :---: | :---: |
@@ -76,14 +80,14 @@ pip install -e ".[torch,metrics]" --no-build-isolation
 | **CMMLU 平均提升** | +5.03% |
 | **MMLU 平均提升** | -4.70% |
 
-</font></div>
+</font></p>
 
-![origin-vs-lora](/Partial_fine_tuning_task/comparison/origin-lora/summary_comparison.png)
+![origin-vs-lora](https://github.com/IAMFULAO/Partial-fine-tuning-7B-model-Evaluation-with-Opencompass/blob/main/comparison/origin-lora/summary_comparison.png?raw=true)
 
 
 <p align="center"><b><font face="宋体" size=3>Llama-2-7B-chat VS Chinese-Alpaca-7B</font></b></p>
 
-<div class="center "><font face="宋体" size=2>
+<p align="center"><font face="宋体" size=2>
 
 | 参数 | 幅度|
 | :---: | :---: |
@@ -95,14 +99,14 @@ pip install -e ".[torch,metrics]" --no-build-isolation
 | **CMMLU 平均提升** | +9.86% |
 | **MMLU 平均提升** | -5.02% |
 
-</font></div>
+</font></p>
 
-![origin-vs-lora](/Partial_fine_tuning_task/comparison/origin-alpaca/summary_comparison.png)
+![origin-vs-alpaca](https://github.com/IAMFULAO/Partial-fine-tuning-7B-model-Evaluation-with-Opencompass/blob/main/comparison/origin-alpaca/summary_comparison.png?raw=true)
 
 
 <p align="center"><b><font face="宋体" size=3>LoRA-fine-tuning-model VS Chinese-Alpaca-7B</font></b></p>
 
-<div class="center "><font face="宋体" size=2>
+<p align="center"><font face="宋体" size=2>
 
 | 参数 | 幅度|
 | :---: | :---: |
@@ -114,9 +118,9 @@ pip install -e ".[torch,metrics]" --no-build-isolation
 | **CMMLU 平均提升** | +4.83% |
 | **MMLU 平均提升** | -0.33% |
 
-</font></div>
+</font></p>
 
-![origin-vs-lora](/Partial_fine_tuning_task/comparison/lora-alpaca/summary_comparison.png)
+![lora-vs-alpaca](https://github.com/IAMFULAO/Partial-fine-tuning-7B-model-Evaluation-with-Opencompass/blob/main/comparison/lora-alpaca/summary_comparison.png?raw=true)
 
 ## Additions
 
