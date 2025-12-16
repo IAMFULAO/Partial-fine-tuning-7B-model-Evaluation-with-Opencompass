@@ -1,0 +1,26 @@
+==================================================
+性能提升统计摘要
+==================================================
+平均准确率 - 微调前: 32.33%
+平均准确率 - 微调后: 34.79%
+平均提升幅度: 2.46%
+最大提升: 22.46%
+最小提升: -33.33%
+提升数据集数量: 82/124
+下降数据集数量: 39/124
+
+CMMLU平均提升: 4.83%
+MMLU平均提升: -0.33%
+
+详细数据预览:
+        dataset_short  before_tuning  after_tuning  improvement dataset_type
+      moral_scenarios           2.01         24.47        22.46         MMLU
+                 arts          30.63         50.00        19.37        CMMLU
+      world_religions          35.09         54.39        19.30         MMLU
+        miscellaneous          36.40         55.17        18.77         MMLU
+           management          25.24         43.69        18.45         MMLU
+    college_chemistry          19.00         36.00        17.00         MMLU
+          college_law          25.00         41.67        16.67        CMMLU
+       security_study          29.63         45.93        16.30        CMMLU
+legal_and_moral_basis          57.48         72.90        15.42        CMMLU
+high_school_geography          40.40         54.55        14.15         MMLU

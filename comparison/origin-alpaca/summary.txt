@@ -1,0 +1,26 @@
+==================================================
+性能提升统计摘要
+==================================================
+平均准确率 - 微调前: 31.77%
+平均准确率 - 微调后: 34.79%
+平均提升幅度: 3.02%
+最大提升: 26.88%
+最小提升: -43.88%
+提升数据集数量: 84/124
+下降数据集数量: 36/124
+
+CMMLU平均提升: 9.86%
+MMLU平均提升: -5.02%
+
+详细数据预览:
+                        dataset_short  before_tuning  after_tuning  improvement dataset_type
+                                 arts          23.12         50.00        26.88        CMMLU
+                 chinese_driving_rule          32.06         56.49        24.43        CMMLU
+elementary_information_and_technology          32.77         53.78        21.01        CMMLU
+              professional_accounting          25.14         45.71        20.57        CMMLU
+        college_engineering_hydrology          24.53         44.34        19.81        CMMLU
+                legal_and_moral_basis          54.21         72.90        18.69        CMMLU
+                          college_law          23.15         41.67        18.52        CMMLU
+                    computer_security          29.24         47.37        18.13        CMMLU
+                       security_study          28.89         45.93        17.04        CMMLU
+                    college_chemistry          19.00         36.00        17.00         MMLU

@@ -1,0 +1,26 @@
+==================================================
+性能提升统计摘要
+==================================================
+平均准确率 - 微调前: 31.77%
+平均准确率 - 微调后: 24.10%
+平均提升幅度: -7.67%
+最大提升: 5.49%
+最小提升: -31.31%
+提升数据集数量: 17/124
+下降数据集数量: 107/124
+
+CMMLU平均提升: -9.29%
+MMLU平均提升: -5.78%
+
+详细数据预览:
+             dataset_short  before_tuning  after_tuning  improvement dataset_type
+           ancient_chinese          17.68         23.17         5.49        CMMLU
+       high_school_physics          22.52         27.81         5.29         MMLU
+     high_school_chemistry          17.42         21.97         4.55        CMMLU
+        elementary_chinese          14.29         18.25         3.96        CMMLU
+       college_mathematics          13.33         17.14         3.81        CMMLU
+              formal_logic          23.81         26.98         3.17         MMLU
+         college_chemistry          19.00         22.00         3.00         MMLU
+       college_mathematics          22.00         25.00         3.00         MMLU
+       high_school_biology          19.53         22.49         2.96        CMMLU
+high_school_microeconomics          32.35         35.29         2.94         MMLU

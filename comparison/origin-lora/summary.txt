@@ -1,0 +1,26 @@
+==================================================
+性能提升统计摘要
+==================================================
+平均准确率 - 微调前: 31.77%
+平均准确率 - 微调后: 32.33%
+平均提升幅度: 0.56%
+最大提升: 18.32%
+最小提升: -17.48%
+提升数据集数量: 66/124
+下降数据集数量: 52/124
+
+CMMLU平均提升: 5.03%
+MMLU平均提升: -4.70%
+
+详细数据预览:
+                        dataset_short  before_tuning  after_tuning  improvement dataset_type
+                 chinese_driving_rule          32.06         50.38        18.32        CMMLU
+            college_actuarial_science          14.15         30.19        16.04        CMMLU
+           college_medical_statistics          25.47         38.68        13.21        CMMLU
+        college_engineering_hydrology          24.53         36.79        12.26        CMMLU
+                       sports_science          23.64         35.76        12.12        CMMLU
+                  college_mathematics          13.33         23.81        10.48        CMMLU
+                   elementary_chinese          14.29         24.60        10.31        CMMLU
+                             virology          23.08         33.14        10.06        CMMLU
+elementary_information_and_technology          32.77         42.44         9.67        CMMLU
+                     college_medicine          21.98         31.50         9.52        CMMLU
