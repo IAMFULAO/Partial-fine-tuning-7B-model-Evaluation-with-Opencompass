@@ -12,7 +12,7 @@
 
 Partial fine-tuning 7B model Evaluation with Opencompass
 
-With the help of opencompass: <https://github.com/open-compass/opencompass> and LLaMA-Factory: <https://github.com/hiyouga/LLaMA-Factory>.
+With the help of **opencompass**: <https://github.com/open-compass/opencompass> and **LLaMA-Factory**: <https://github.com/hiyouga/LLaMA-Factory>.
 
 ## Abstract
 
@@ -60,59 +60,59 @@ pip install -e ".[torch,metrics]" --no-build-isolation
 
 ### Improvement Effect between Models
 
-<p align="center"><b><span style="font-family: SimSun, STKaiti; font-size: 16px;">Llama-2-7B-chat VS LoRA-fine-tuning-model</span></b></p>
+<p align="center"><b>Llama-2-7B-chat VS LoRA-fine-tuning-model</b></p>
 
-<div align="center"><span style="font-family: SimSun, STKaiti; font-size: 12px;">
+<div align="center"><small><small>
 
-| 参数 | 幅度|
+| Parameters | Amplitude |
 | :---: | :---: |
-| **平均准确率 (微调前)** | 31.77% |
-| **平均准确率 (微调后)** | 32.33% |
-| **平均提升幅度** | +0.56% |
-| **最大提升** | +18.32% |
-| **最小提升** | -17.48% |
-| **CMMLU 平均提升** | +5.03% |
-| **MMLU 平均提升** | -4.70% |
+| **Average Accuracy (before fine-tuning)** | 31.77% |
+| **Average Accuracy (after fine-tuning)** | 32.33% |
+| **Average Improvement** | +0.56% |
+| **Max Improvement** | +18.32% |
+| **Min Improvement** | -17.48% |
+| **Average Improvemnt on CMMLU** | +5.03% |
+| **Average Improvemnt on MMLU** | -4.70% |
 
-</span></div>
+</small></small></div>
 
 ![origin-vs-lora](https://github.com/IAMFULAO/Partial-fine-tuning-7B-model-Evaluation-with-Opencompass/blob/main/comparison/origin-lora/summary_comparison.png?raw=true)
 
 
-<p align="center"><b><span style="font-family: SimSun, STKaiti; font-size: 16px;">Llama-2-7B-chat VS Chinese-Alpaca-7B</span></b></p>
+<p align="center"><b>Llama-2-7B-chat VS Chinese-Alpaca-7B</b></p>
 
-<div align="center"><span style="font-family: SimSun, STKaiti; font-size: 12px;">
+<div align="center"><small><small>
 
-| 参数 | 幅度|
+| Parameters | Amplitude |
 | :---: | :---: |
-| **平均准确率 (微调前)** | 31.77% |
-| **平均准确率 (微调后)** | 34.79% |
-| **平均提升幅度** | +3.02% |
-| **最大提升** | +26.88% |
-| **最小提升** | -43.88% |
-| **CMMLU 平均提升** | +9.86% |
-| **MMLU 平均提升** | -5.02% |
+| **Average Accuracy (before fine-tuning)** | 31.77% |
+| **Average Accuracy (after fine-tuning)** | 34.79% |
+| **Average Improvement** | +3.02% |
+| **Max Improvement** | +26.88% |
+| **Min Improvement** | -43.88% |
+| **Average Improvement on CMMLU** | +9.86% |
+| **Average Improvement on MMLU** | -5.02% |
 
-</span></div>
+</small></small></div>
 
 ![origin-vs-alpaca](https://github.com/IAMFULAO/Partial-fine-tuning-7B-model-Evaluation-with-Opencompass/blob/main/comparison/origin-alpaca/summary_comparison.png?raw=true)
 
 
-<p align="center"><b><span style="font-family: SimSun, STKaiti; font-size: 16px;">LoRA-fine-tuning-model VS Chinese-Alpaca-7B</span></b></p>
+<p align="center"><b>LoRA-fine-tuning-model VS Chinese-Alpaca-7B</b></p>
 
-<div align="center"><span style="font-family: SimSun, STKaiti; font-size: 12px;">
+<div align="center"><small><small>
 
-| 参数 | 幅度|
+| Parameters | Amplitude |
 | :---: | :---: |
-| **平均准确率 (微调前)** | 32.33% |
-| **平均准确率 (微调后)** | 34.79% |
-| **平均提升幅度** | +2.46% |
-| **最大提升** | +22.46% |
-| **最小提升** | -33.33% |
-| **CMMLU 平均提升** | +4.83% |
-| **MMLU 平均提升** | -0.33% |
+| **Average Accuracy (before fine-tuning)** | 32.33% |
+| **Average Accuracy (after fine-tuning)** | 34.79% |
+| **Average Improvement** | +2.46% |
+| **Max Improvement** | +22.46% |
+| **Min Improvement** | -33.33% |
+| **Average Improvement on CMMLU** | +4.83% |
+| **Average Improvement on MMLU** | -0.33% |
 
-</span></div>
+</small></small></div>
 
 ![lora-vs-alpaca](https://github.com/IAMFULAO/Partial-fine-tuning-7B-model-Evaluation-with-Opencompass/blob/main/comparison/lora-alpaca/summary_comparison.png?raw=true)
 
