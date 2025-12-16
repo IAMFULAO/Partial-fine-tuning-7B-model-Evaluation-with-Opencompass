@@ -52,7 +52,7 @@ pip install -e ".[torch,metrics]" --no-build-isolation
 
 <p align="center"><b>Llama-2-7B-chat VS LoRA-fine-tuning-model</b></p>
 
-<div align="center"><small><small>
+<div align="center">
 
 | Parameters | Amplitude |
 | :---: | :---: |
@@ -64,14 +64,14 @@ pip install -e ".[torch,metrics]" --no-build-isolation
 | **Average Improvemnt on CMMLU** | +5.03% |
 | **Average Improvemnt on MMLU** | -4.70% |
 
-</small></small></div>
+</div>
 
 ![origin-vs-lora](https://github.com/IAMFULAO/Partial-fine-tuning-7B-model-Evaluation-with-Opencompass/blob/main/comparison/origin-lora/summary_comparison.png?raw=true)
 
 
 <p align="center"><b>Llama-2-7B-chat VS Chinese-Alpaca-7B</b></p>
 
-<div align="center"><small><small>
+<div align="center">
 
 | Parameters | Amplitude |
 | :---: | :---: |
@@ -83,14 +83,14 @@ pip install -e ".[torch,metrics]" --no-build-isolation
 | **Average Improvement on CMMLU** | +9.86% |
 | **Average Improvement on MMLU** | -5.02% |
 
-</small></small></div>
+</div>
 
 ![origin-vs-alpaca](https://github.com/IAMFULAO/Partial-fine-tuning-7B-model-Evaluation-with-Opencompass/blob/main/comparison/origin-alpaca/summary_comparison.png?raw=true)
 
 
 <p align="center"><b>LoRA-fine-tuning-model VS Chinese-Alpaca-7B</b></p>
 
-<div align="center"><small><small>
+<div align="center">
 
 | Parameters | Amplitude |
 | :---: | :---: |
@@ -102,7 +102,7 @@ pip install -e ".[torch,metrics]" --no-build-isolation
 | **Average Improvement on CMMLU** | +4.83% |
 | **Average Improvement on MMLU** | -0.33% |
 
-</small></small></div>
+</div>
 
 ![lora-vs-alpaca](https://github.com/IAMFULAO/Partial-fine-tuning-7B-model-Evaluation-with-Opencompass/blob/main/comparison/lora-alpaca/summary_comparison.png?raw=true)
 
