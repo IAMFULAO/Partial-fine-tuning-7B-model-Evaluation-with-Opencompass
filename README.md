@@ -1,13 +1,3 @@
-<style>
-.center
-{
-  width: auto;
-  display: table;
-  margin-left: auto;
-  margin-right: auto;
-}
-</style>
-
 # Partial-fine-tuning-7B-model-Evaluation-with-Opencompass
 
 Partial fine-tuning 7B model Evaluation with Opencompass
