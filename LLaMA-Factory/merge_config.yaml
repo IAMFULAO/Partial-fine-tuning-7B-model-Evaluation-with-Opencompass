@@ -1,0 +1,11 @@
+### model
+model_name_or_path: /home/liruizheng/models/Llama-2-7b-chat
+adapter_name_or_path: /home/liruizheng/LLaMA-Factory/saves/Llama-2-7B-Chat/lora/train_2025-12-16-14-04-15
+template: llama2
+finetuning_type: lora
+
+### export
+export_dir: /home/liruizheng/models/Llama-2-7b-chat-lora-rank4
+export_size: 2
+export_device: cpu
+export_legacy_format: false
