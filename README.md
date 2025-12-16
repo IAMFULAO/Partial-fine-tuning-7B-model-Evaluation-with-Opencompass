@@ -60,9 +60,9 @@ pip install -e ".[torch,metrics]" --no-build-isolation
 
 ### Improvement Effect between Models
 
-<p align="center"><b><font face="宋体" size=3>Llama-2-7B-chat VS LoRA-fine-tuning-model</font></b></p>
+<p align="center"><b><span style="font-family: SimSun, STKaiti; font-size: 16px;">Llama-2-7B-chat VS LoRA-fine-tuning-model</span></b></p>
 
-<div align="center"><font face="宋体" size=2>
+<div align="center"><span style="font-family: SimSun, STKaiti; font-size: 12px;">
 
 | 参数 | 幅度|
 | :---: | :---: |
@@ -74,14 +74,14 @@ pip install -e ".[torch,metrics]" --no-build-isolation
 | **CMMLU 平均提升** | +5.03% |
 | **MMLU 平均提升** | -4.70% |
 
-</font></div>
+</span></div>
 
 ![origin-vs-lora](https://github.com/IAMFULAO/Partial-fine-tuning-7B-model-Evaluation-with-Opencompass/blob/main/comparison/origin-lora/summary_comparison.png?raw=true)
 
 
-<p align="center"><b><font face="宋体" size=3>Llama-2-7B-chat VS Chinese-Alpaca-7B</font></b></p>
+<p align="center"><b><span style="font-family: SimSun, STKaiti; font-size: 16px;">Llama-2-7B-chat VS Chinese-Alpaca-7B</span></b></p>
 
-<div align="center"><font face="宋体" size=2>
+<div align="center"><span style="font-family: SimSun, STKaiti; font-size: 12px;">
 
 | 参数 | 幅度|
 | :---: | :---: |
@@ -93,14 +93,14 @@ pip install -e ".[torch,metrics]" --no-build-isolation
 | **CMMLU 平均提升** | +9.86% |
 | **MMLU 平均提升** | -5.02% |
 
-</font></div>
+</span></div>
 
 ![origin-vs-alpaca](https://github.com/IAMFULAO/Partial-fine-tuning-7B-model-Evaluation-with-Opencompass/blob/main/comparison/origin-alpaca/summary_comparison.png?raw=true)
 
 
-<p align="center"><b><font face="宋体" size=3>LoRA-fine-tuning-model VS Chinese-Alpaca-7B</font></b></p>
+<p align="center"><b><span style="font-family: SimSun, STKaiti; font-size: 16px;">LoRA-fine-tuning-model VS Chinese-Alpaca-7B</span></b></p>
 
-<div align="center"><font face="宋体" size=2>
+<div align="center"><span style="font-family: SimSun, STKaiti; font-size: 12px;">
 
 | 参数 | 幅度|
 | :---: | :---: |
@@ -112,7 +112,7 @@ pip install -e ".[torch,metrics]" --no-build-isolation
 | **CMMLU 平均提升** | +4.83% |
 | **MMLU 平均提升** | -0.33% |
 
-</font></div>
+</span></div>
 
 ![lora-vs-alpaca](https://github.com/IAMFULAO/Partial-fine-tuning-7B-model-Evaluation-with-Opencompass/blob/main/comparison/lora-alpaca/summary_comparison.png?raw=true)
 
