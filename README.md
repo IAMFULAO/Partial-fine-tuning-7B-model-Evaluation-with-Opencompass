@@ -6,7 +6,7 @@ With the help of **opencompass**: <https://github.com/open-compass/opencompass> 
 
 ## Abstract
 
-Comparison models' performance on MMLU (Massive Multitask Language Understanding) & CMMLU (Chinese Massive Multi-Level Language Understanding) two datasets all 124 different fields of data test.
+Comparison models' performance on MMLU (Massive Multitask Language Understanding) & CMMLU (Chinese Massive Multi-Level Language Understanding) two datasets all 124 different fields of data tests.
 
 Models include:
 
